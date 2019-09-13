@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		T&iacute;tulo de la p&aacute;gina
+	</title>
+</head>
+<body>
+	<h1>Encabezado de mi pagina</h1>
+	--------------------------------------
+	Esta es una modificacion en mi rama :P
+	Otra modificacion -------->>>>>>>>>>
+	--------------------------------------
+	<b>Hola mundo </b> <br>
+	<i>L&iacute;nea dentro de la p&aacute;gina</i> <br>
+	<u>Esta linea no respeta el enter</u><br>
+	<p></p>
+	<marquee>
+		Esta etiqueta no la usen por favor
+	</marquee>
+	Encabezados <br>
+	<h1>Encabezado</h1>
+	<h2>Encabezado</h2>
+	<h3>Encabezado</h3>
+	<h4>Encabezado</h4>
+	<h5>Encabezado</h5>
+	<h6>Encabezado</h6>
+
+	Listas <br>
+	Lista ordenada <br>
+	<ol>
+		<li>elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+	</ol>
+
+	Lista no ordenada <br>
+	<ul>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>elemento 3</li>
+	</ul>
+	Regla Horizontal
+	<hr>
+	Enlaces a otras p&aacute;ginas <br>
+
+	<a href="https://itculiacan.edu.mx" target="_blank">Texto que me lleva a otra p&aacute;gina</a>
+	Im&aacute;genes <br>
+	<hr></hr>
+	Desde una URL <br>
+	<img src="https://itculiacan.edu.mx/wp-content/plugins/website-logo/images/LOGO_TEC_PNG_OK.png" alt="Logo TEC"> <br>
+	Desde archivo <br>
+	<img src="imgpw/LOGO_TEC_PNG_OK.png" alt="otro TEC"> <br>
+<hr></hr>
+	Tablas <br>
+	<table border="1">
+		<caption>De que se trata nuestra tabla</caption>
+		<!--Encabezado de la tabla (atributos)-->
+		<thead>
+			<tr>
+				<th>Numero de control</th>
+				<th>Nombre</th>
+				<th>Apellido Paterno</th>
+				<th>Apellido Materno</th>
+			</tr>
+		</thead>
+		<!--Cuerpo de la tabla (datos)-->
+		<tbody align="center">
+			<tr>
+				<td>16171502</td>
+				<td>El&iacute;as</td>
+				<!-- <td colspan="2">Soria</td> -->
+				<td>Soria</td>
+				<td rowspan="2">Soria</td>
+			</tr>
+			<tr>
+				<td>16150050</td>
+				<td>Juanita</td>
+				<td>Espinoza</td>
+				<!--<td>Ram&iacute;rez</td>-->
+			</tr>
+			<tr>
+				<td>16150050</td>
+				<td>Juanita</td>
+				<td>Espinoza</td>
+				<td rowspan="2">Espinoza</td>
+				<!--<td>Ram&iacute;rez</td>-->
+			</tr>
+			<tr>
+				<td>16150050</td>
+				<td>Juanita</td>
+				<td>Espinoza</td>
+				<!--<td>Ram&iacute;rez</td>-->
+			</tr>
+		</tbody>
+	</table>
+	<hr></hr>
+	Formularios <br>
+	<form action="procesa.html" method="get">
+		<input type="text" name="usuario" required="true">
+		<input type="password" name="clave" >
+		<select name="Genero" id="genero">
+			<option value="-1">Seleccione una opcion</option>
+			<option value="f">femenino</option>
+			<option value="m">Masculino</option>
+
+		</select>
+		<!-- <input type="button" value="Aceptar"> -->
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>
