@@ -1,0 +1,40 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;/*Centrado pantalla*/
+	max-width: 1078px;/*cliente*/
+	min-width: 1078;
+}
+header{
+	margin-top: 15px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+#gotoshop{
+	float: right;
+	margin-top: 60px;
+	margin-right: 155px;
+}
+#buy{
+	float: right;
+	margin-top: 130px;
+	
+}
+#roja{
+	float: right;
+	margin-top: 5px;
+	margin-right: -245px;
+}
+#sigue{
+	float: right;
+	margin-top: 5px;
+	margin-right: -290px;
+}
+#mundo{
+	float: right;
+	margin-top: 2px;
+	margin-right: -340px;
+}
