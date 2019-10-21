@@ -1,0 +1,129 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;/*Centrado pantalla*/
+	max-width: 1078px;/*cliente*/
+	min-width: 1078px;
+	color: black;
+}
+header{
+	background-color: #454445;
+	
+}
+header nav{
+	padding-bottom: 15px;
+}
+#site{
+	margin-top: 5px;
+	margin-right: 280px;
+	margin-left: 20px;
+
+}
+#Login{
+	float: right;
+}
+#IniciaSesion{
+	float: right;
+}
+.location{
+	padding-top: 15px;
+	padding-right: 10px;
+}
+#primero{
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+#libro{
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#camara{
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#correo{
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#SeccionUno{
+		background-color: #e42c7e;
+}
+#SeccionUno article{
+
+	padding-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	width: 354px;
+	height: 58px;
+	text-align: center;
+
+}
+#trampa{
+	
+		width: 354px;
+	height: 58px;
+
+}
+.premiun{
+	font-size: 1.6em;
+	font-weight: bold;
+	color: white;
+}
+#SeccionUno #batalloso{
+	font-size: 1.4em;
+}
+.sale{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: white;
+}
+.horas{
+		color: white;
+	font-weight: bold;
+}
+.minutos{
+	color: white;
+	font-weight: bold;
+}
+.segundos{
+	color: white;
+	font-weight: bold;
+}
+#oferton{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1em;
+	color: #e42c7e;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 28px;
+	padding-right: 28px;
+	background-color: white;
+	border-style: none;
+}
+#SeccionDos article{
+	padding-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	width: 520px;
+	height: 100px;
+
+}
+#libros{
+	width: 300px;
+	height: 300px;
+}
+#encuentra{
+		padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1em;
+	color: #4ab5bf;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 28px;
+	padding-right: 28px;
+	background-color: white;
+	border-style: none;
+}
