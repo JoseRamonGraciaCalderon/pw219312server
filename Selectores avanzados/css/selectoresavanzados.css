@@ -1,0 +1,74 @@
+img[alt]{
+	border: 5px solid blue;
+}
+img[src="img/LOGO_TEC_PNG_OK.png"]{
+	width: 400px;
+}
+img[src^=["img/"]]{
+	width: 150px;
+}
+img[src$="png"]{
+	width: 250px;
+}
+img[src*="mg/"]{
+	width: 1000px;
+}
+/*Eqivalente a:
+.resaltado
+.ingles
+.archivo
+*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="ingles"]{
+	border: 1px dashed red;
+}
+article[class~="archivo"]{
+	border: 1px dashed green;
+}
+
+article[class|="ingles"]{
+	text-align: center;
+}
+/*Hijos directos*/
+div > p{
+	color: blue;
+}
+/*Toma todo sin importar si no son directos*/
+div p{
+	color: red;
+}
+/*tomara la primera p que esta despues del h2 siguiente elemento*/
+h2 + p{
+	color: gray;
+}
+/*toma todos los elementos seguidos de h2*/
+h2 ~ p{
+	color: green;
+}
+#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+	color: red;
+}
+/*Todas las secciones se pongan de color azul menos referencias*/
+section:not(#referencias){
+	color: blue;
+}
+/*Para poner color a todos los impares*/
+li:nth-child(odd){
+	color: green;
+}
+/*Para poner color a todos los pares*/
+li:nth-child(even){
+	color: blue;
+}
+li:nth-child(5){
+	color: red;
+}
+li:nth-last-child(2){
+	color: purple;
+}
+p:first-line{
+	color: red;
+	font-weight: bold;
+}
