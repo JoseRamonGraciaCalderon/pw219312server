@@ -1,0 +1,143 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;/*Centrado pantalla*/
+/*	max-width: 1078px;/*cliente*/
+	/*min-width: 1078px;*/
+	/*color: #a8b78e;*/*/
+}
+section{
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: -5px;
+}
+#seccionuno article{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+}
+#secciondos article{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -5px;
+}
+
+#seccionuno{
+	display: inline-block;
+	vertical-align: top;
+	width: 1080px;
+	height: 500px;
+
+
+}
+#secciondos{
+	display: inline-block;
+	vertical-align: top;
+	width: 1080px;
+	height: 400px;
+	margin-bottom: 10px;
+}
+#sec1art1{
+	background: #f1efef;
+	vertical-align: top;
+	display: inline-block;
+
+	width: 656px;
+	height: 500px;
+}
+#sec1art11{
+	width: 350px;
+	height: 500px;
+	text-align: center;
+}
+#sec1art12{
+
+	width: 300px;
+	height: 500px;
+	text-align: center;
+}
+#sec1art2{
+	background: #646363;
+	width: 420px;
+	height: 500px;
+	text-align: center;
+}
+#persona{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 30px;
+	width: 250px;
+	height: 400px;
+}
+#learmore{
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border:1px solid black;
+	border-radius: 10px;
+}#findoutmore{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-radius: 30px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	background:  #646363;
+	border: 1px solid white;
+}
+#learmore{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-radius: 30px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
+#getintouch{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-radius: 30px;
+	padding-left: 10px;
+	font-size: 1.5em;
+		background: #d3dccc;
+	border: 2px solid black;
+}
+#zoe{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border-radius: 30px;
+	padding-left: 20px;
+	font-size: 1.5em;
+		background:  #646363;
+	border: 2px solid white;
+}
+#secciondosarticle1{
+	width: 500px;
+	height: 400px;
+	background: #54acec;
+
+}
+#secciondosarticle2{
+	background: #d3dccc;
+	text-align: center;
+	width: 303px;
+	height: 400px;
+}
+#secciondosarticle3{
+	text-align: center;
+	width: 280px;
+	height: 400px;
+	background: #646363;
+}
+.tercerbervo{
+	font-size: 3em;
+}
+.Cuartoverbo{
+font-size: 1.2em;
+}
+
