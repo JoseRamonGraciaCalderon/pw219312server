@@ -1,0 +1,23 @@
+<form action="/update/<%= data.id %>" method="post">
+		<table align="center" border>
+			<tbody>
+				<tr>
+					<td>Nombre</td>
+					<td><input type="text" value="<%= data.name %>" name="name" placeholder="Nombre"></td>
+				</tr>
+				<tr>
+					<td>Direccion</td>
+					<td><input type="text" value="<%= data.address %>" name="address" placeholder="Direccion"></td>
+				</tr>
+				<tr>
+					<td>Telefono</td>
+					<td><input type="text" value="<%= data.phone %>" name="phone" placeholder="Telefono"></td>
+				</tr> 	
+				<tr>
+					<td colspan="2"><button type="submit">Actualiza Cliente</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		
+	</form>

@@ -16,7 +16,15 @@ app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'vistas' ));
 
 //middleware
-//app.use();
+app.use(myConnection(mysql,{
+	host: 'localhost',
+	user: 'root',
+	password: '',
+	port: 3306,
+	database: 'crudnodejsmysql'
+
+},'single'));
+app.use(express.urlencoded({extended: false}));
 
 //usamos las rutas
 app.use('/',indiceRutas);
